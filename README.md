@@ -1,17 +1,17 @@
-## Blind Auction
+**Blind Auction Game**
+**Overview**
+The Blind Auction Game is an interactive game where participants bid on an item without knowing the bids of others. Each player submits their bid in secret, and the highest bid wins the auction. This game simulates the secrecy and strategy of real-world blind auctions, offering a unique way for players to engage in competitive bidding.
 
-Click "Open Preview" above to see this file rendered with the markdown.
+**Game Rules:**
+Players: Multiple players (could be 2 or more) can participate in the auction.
 
-# Starting Code
+Bidding: Players enter their bids without seeing the bids of others. The bids are anonymous and can be in any unit (e.g., dollars, points).
 
-[https://replit.com/@appbrewery/blind-auction-start](https://replit.com/@appbrewery/blind-auction-start?v=1)
+Auction End: Once all bids have been submitted, the game reveals the highest bid, and the player with the highest bid wins the item.
 
-
-# My console doesn't clear!
-
-This will happen if you’re using an IDE other than replit (e.g., VSCode, PyCharm etc). Similar to how we used the "random" module previously, in this project we will use the "replit" module. The clear function is available here via the replit module without any extra configuration. I’ll cover how to use PyCharm and import modules on Day 15. That said, you can write your own clear() function or configure your IDE like so: 
-
-[Udemy Q&A Answer](https://www.udemy.com/course/100-days-of-code/learn/lecture/19279420#questions/16084076)
+Item Value: The value of the item is not disclosed until the auction ends. This adds an element of uncertainty and strategy for players.
 
 
+**Purpose of the Game:**
 
+The Blind Auction Game encourages players to think strategically about how much they're willing to pay for an item without being able to adjust their bid based on others' offers. Players must rely on their intuition, game experience, and sometimes bluffing to succeed.
